@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ['@supabase/supabase-js']
+      external: ['/supabase/supabase-js']
     }
   },
   plugins: [
