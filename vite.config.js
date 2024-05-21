@@ -9,7 +9,7 @@ export default defineConfig({
     rollupOptions: {
       external: ['@supabase/supabase-js']
     }
-  }
+  },
   plugins: [
     vue(),
   ],
